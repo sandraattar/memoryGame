@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+}
+.card{
+  height: 200px;
+  width: 17%;
+  margin-left: .5%;
+  margin-right: .5%;
+  border: 2px solid black;
+  margin: 20px;
+  float: left;
+}
+.blue.selected{
+  background: blue;
+}
+.red.selected{
+  background: red;
+}
+.green.selected{
+  background: green;
+}
+.yellow.selected{
+  background: yellow;
+}
+.orange.selected{
+  background: orange;
+}
+button{
+  margin-top: 2%;
+  font-size: 50px;
+  height: 60px;
+  width: 30%;
+  background-color: lightblue;
+}
